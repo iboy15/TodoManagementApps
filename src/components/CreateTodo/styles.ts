@@ -1,0 +1,123 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  seperator: {
+    height: 12,
+  },
+  chipContentContainer: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    marginTop: 8,
+  },
+  selectedCategoryCover: {
+    flex: 1,
+    position: 'absolute',
+    left: 0,
+    top: 0,
+    right: 0,
+    bottom: 0,
+    backgroundColor: 'rgba(0,0,0,0.4)',
+    borderRadius: 20,
+    justifyContent: 'center',
+    paddingLeft: 8,
+  },
+  createTaskBtn: {
+    width: '100%',
+    borderRadius: 24,
+
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingVertical: 14,
+    marginTop: 20,
+  },
+
+  detailInput: {
+    shadowColor: '',
+    shadowOffset: {
+      width: 0,
+      height: 8,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 7,
+    backgroundColor: 'white',
+    elevation: 5,
+    borderRadius: 8,
+    height: 65,
+    marginTop: 8,
+    paddingHorizontal: 8,
+    marginBottom: 16,
+    textAlignVertical: 'top',
+    paddingTop: 8,
+  },
+  titleInput: {
+    shadowColor: '',
+    shadowOffset: {
+      width: 0,
+      height: 8,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 7,
+    backgroundColor: 'white',
+    elevation: 5,
+    borderRadius: 8,
+    height: 45,
+    marginTop: 8,
+    paddingHorizontal: 8,
+    marginBottom: 16,
+  },
+  timeBtn: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingVertical: 10,
+    paddingHorizontal: 16,
+    shadowColor: '',
+    shadowOffset: {
+      width: 0,
+      height: 8,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 7,
+    backgroundColor: 'white',
+    elevation: 5,
+    marginBottom: 12,
+    borderRadius: 8,
+  },
+  rowContainer: {
+    flexDirection: 'row',
+    width: '100%',
+    justifyContent: 'space-between',
+  },
+  calendar: { height: 70, marginTop: 8 },
+  container: {
+    flex: 1,
+    paddingHorizontal: 16,
+    paddingTop: 12,
+    backgroundColor: 'white',
+  },
+  title: {
+    fontSize: 20,
+    fontWeight: 'bold',
+  },
+  separator: {
+    marginVertical: 30,
+    height: 1,
+    width: '80%',
+  },
+  topContainer: {
+    marginBottom: 18,
+    shadowColor: '',
+    shadowOffset: {
+      width: 0,
+      height: 8,
+    },
+    shadowOpacity: 0.15,
+    shadowRadius: 7,
+    backgroundColor: 'white',
+    elevation: 5,
+    width: '100%',
+    padding: 8,
+    paddingBottom: 4,
+    borderRadius: 8,
+  },
+
+});
